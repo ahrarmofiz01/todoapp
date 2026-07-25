@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use("/todos", require("./routes/todoRoutes"));
 
-const PORT = 5000;
+const PORT = 3000;
 
 app.listen(PORT,()=>{
     console.log(`Server Running on ${PORT}`);
